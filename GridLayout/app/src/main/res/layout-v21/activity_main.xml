@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.vinothvsbe.gridlayout.MainActivity">
+
+    <GridLayout
+        android:id="@+id/gridLayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <Button
+            android:id="@+id/birdcallnight"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_column="0"
+            android:layout_columnWeight="1"
+            android:layout_gravity="fill"
+            android:layout_row="0"
+            android:onClick="ButtonCall"
+            android:text="Bird Night Call" />
+
+        <Button
+            android:id="@+id/birdsinging"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_column="1"
+            android:layout_columnWeight="1"
+            android:layout_rowWeight="1"
+            android:layout_gravity="fill"
+            android:layout_row="0"
+            android:onClick="ButtonCall"
+            android:text="Bird Singing" />
+
+        <Button
+            android:id="@+id/birdwarning"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_column="0"
+            android:layout_columnWeight="1"
+            android:layout_rowWeight="1"
+            android:layout_gravity="fill"
+            android:layout_row="1"
+            android:onClick="ButtonCall"
+            android:text="Bird Warning" />
+
+        <Button
+            android:id="@+id/ocean"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_column="1"
+            android:layout_columnWeight="1"
+            android:layout_rowWeight="1"
+            android:layout_gravity="fill"
+            android:layout_row="1"
+            android:onClick="ButtonCall"
+            android:text="Ocean" />
+
+        <Button
+            android:id="@+id/piano"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_column="0"
+            android:layout_columnWeight="1"
+            android:layout_rowWeight="1"
+            android:layout_gravity="fill"
+            android:layout_row="2"
+            android:onClick="ButtonCall"
+            android:text="Piano" />
+
+        <Button
+            android:id="@+id/relaxingrain"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_column="1"
+            android:layout_columnWeight="1"
+            android:layout_rowWeight="1"
+            android:layout_gravity="fill"
+            android:layout_row="2"
+            android:onClick="ButtonCall"
+            android:text="Rain Relaxing" />
+
+        <Button
+            android:id="@+id/violin"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_column="0"
+            android:layout_columnWeight="1"
+            android:layout_rowWeight="1"
+            android:layout_gravity="fill"
+            android:layout_row="3"
+            android:onClick="ButtonCall"
+            android:text="Violin" />
+
+        <Button
+            android:id="@+id/waterdripping"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_column="1"
+            android:layout_columnWeight="1"
+            android:layout_rowWeight="1"
+            android:layout_gravity="fill"
+            android:layout_row="3"
+            android:onClick="ButtonCall"
+            android:text="Water Dripping" />
+    </GridLayout>
+
+</android.support.constraint.ConstraintLayout>
